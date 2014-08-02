@@ -1,8 +1,7 @@
 var json = null;
-var aa=null;
 function load() {
     var xmlhttp = null;
-    var json = null;
+    
     if (window.XMLHttpRequest) { // code for all new browsers
         xmlhttp = new XMLHttpRequest();
     } else if (window.ActiveXObject) { // code for IE5 and IE6
@@ -23,12 +22,13 @@ function load() {
         if (xmlhttp.readyState == 4) { // 4 = "loaded"
             if (xmlhttp.status == 200) { // 200 = OK
 
-                console.log(xmlhttp.response);
+                // console.log(xmlhttp.response);
                 json = JSON.parse(xmlhttp.responseText)
+
             } else {
                 alert("Problem retrieving XML data");
             }
         }
     }
-    
+    return json;
 }
