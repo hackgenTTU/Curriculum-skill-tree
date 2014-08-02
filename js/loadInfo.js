@@ -1,3 +1,5 @@
+var json = null;
+var aa=null;
 function load() {
     var xmlhttp = null;
     var json = null;
@@ -20,12 +22,12 @@ function load() {
     function state_Change() {
         if (xmlhttp.readyState == 4) { // 4 = "loaded"
             if (xmlhttp.status == 200) { // 200 = OK
-                console.log(xmlhttp.response);
-                json=eval(xmlhttp.response);
+                
+                json = JSON.parse(xmlhttp.response);
             } else {
                 alert("Problem retrieving XML data");
             }
         }
     }
-    return json;
+    
 }
