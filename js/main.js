@@ -12,7 +12,7 @@ var classRect = (function () {
 	classRect.prototype.draw = function(r,g,b) {
 		var ctx = this.canvas.getContext('2d');
 		if(r!=null&&g!=null&&b!=null)
-			ctx.fillStyle = "rgb(+"r+","+g+","+b+")";//設定圖形顏色（Red, Green, Blue）
+			ctx.fillStyle = "rgb("+r+","+g+","+b+")";//設定圖形顏色（Red, Green, Blue）
         else
         	ctx.fillStyle = "rgb(200,0,0)";
         ctx.fillRect (this.site.x, this.site.y, this.size.w, this.size.h);//設定位置（x, y, width, height）
