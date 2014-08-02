@@ -1,0 +1,636 @@
+{
+	"_1": {
+		"G0010H": {
+			"SbjTitle": "服務學習",
+			"SbjTea": "魏哲弘楊祝壽項維欣",
+			"SbjPrefix": ""
+		},
+		"G0010K": {
+			"SbjTitle": "服務學習",
+			"SbjTea": "王文嘉",
+			"SbjPrefix": ""
+		},
+		"G0010M": {
+			"SbjTitle": "服務學習",
+			"SbjTea": "紀俊龍魏哲弘楊祝壽",
+			"SbjPrefix": ""
+		},
+		"G0010N": {
+			"SbjTitle": "服務學習",
+			"SbjTea": "魏哲弘楊祝壽蔡國龍",
+			"SbjPrefix": "1.具有愛心且願意無條件服務宿舍。2.學期結束服務表現優良同學"
+		},
+		"G0010O": {
+			"SbjTitle": "服務學習",
+			"SbjTea": "魏哲弘楊祝壽廖艷群",
+			"SbjPrefix": "無"
+		},
+		"G0040A": {
+			"SbjTitle": "現代公民素養",
+			"SbjTea": "陳淑敏",
+			"SbjPrefix": ""
+		},
+		"G0040B": {
+			"SbjTitle": "現代公民素養",
+			"SbjTea": "陳嘉明",
+			"SbjPrefix": ""
+		},
+		"G0040C": {
+			"SbjTitle": "現代公民素養",
+			"SbjTea": "張南驥",
+			"SbjPrefix": ""
+		},
+		"G0040D": {
+			"SbjTitle": "現代公民素養",
+			"SbjTea": "邱家宜",
+			"SbjPrefix": ""
+		},
+		"G0040E": {
+			"SbjTitle": "現代公民素養",
+			"SbjTea": "廖純沂",
+			"SbjPrefix": ""
+		},
+		"G0040F": {
+			"SbjTitle": "現代公民素養",
+			"SbjTea": "黃淑卿",
+			"SbjPrefix": ""
+		},
+		"G0040G": {
+			"SbjTitle": "現代公民素養",
+			"SbjTea": "曾子良",
+			"SbjPrefix": ""
+		},
+		"G1011A": {
+			"SbjTitle": "",
+			"SbjTea": "張建瑋",
+			"SbjPrefix": "高中數學"
+		},
+		"G1210A": {
+			"SbjTitle": "計算機概論",
+			"SbjTea": "李良德",
+			"SbjPrefix": "No background assumed"
+		},
+		"G1431J": {
+			"SbjTitle": "",
+			"SbjTea": "",
+			"SbjPrefix": ""
+		},
+		"G1511G": {
+			"SbjTitle": "",
+			"SbjTea": "曾美鳳",
+			"SbjPrefix": ""
+		},
+		"G1511H": {
+			"SbjTitle": "",
+			"SbjTea": "李信明",
+			"SbjPrefix": ""
+		},
+		"G1511I": {
+			"SbjTitle": "",
+			"SbjTea": "張文漢",
+			"SbjPrefix": ""
+		},
+		"G1511J": {
+			"SbjTitle": "",
+			"SbjTea": "楊冀光",
+			"SbjPrefix": ""
+		},
+		"G1511K": {
+			"SbjTitle": "",
+			"SbjTea": "梁穎",
+			"SbjPrefix": ""
+		},
+		"G1511L": {
+			"SbjTitle": "",
+			"SbjTea": "蘇安德",
+			"SbjPrefix": ""
+		},
+		"G1611C": {
+			"SbjTitle": "",
+			"SbjTea": "江裴倩",
+			"SbjPrefix": "無"
+		},
+		"G1821J": {
+			"SbjTitle": "",
+			"SbjTea": "唐吉民",
+			"SbjPrefix": ""
+		},
+		"G1960A": {
+			"SbjTitle": "全民國防教育軍事訓練_國際情勢",
+			"SbjTea": "廖艷群",
+			"SbjPrefix": "無"
+		},
+		"I1251A": {
+			"SbjTitle": "",
+			"SbjTea": "虞台文",
+			"SbjPrefix": ""
+		},
+		"I1261A": {
+			"SbjTitle": "",
+			"SbjTea": "虞台文",
+			"SbjPrefix": "無"
+		},
+		"I2610A": {
+			"SbjTitle": "線性代數",
+			"SbjTea": "高一統",
+			"SbjPrefix": "none"
+		},
+	"_2": {
+		"G1513I": {
+			"SbjTitle": "",
+			"SbjTea": "陳櫻珊",
+			"SbjPrefix": ""
+		},
+		"G1513J": {
+			"SbjTitle": "",
+			"SbjTea": "蘇安德",
+			"SbjPrefix": ""
+		},
+		"G1513K": {
+			"SbjTitle": "",
+			"SbjTea": "江朝偉",
+			"SbjPrefix": ""
+		},
+		"G1513L": {
+			"SbjTitle": "",
+			"SbjTea": "曾美鳳",
+			"SbjPrefix": ""
+		},
+		"G1513M": {
+			"SbjTitle": "",
+			"SbjTea": "吳婷君",
+			"SbjPrefix": ""
+		},
+		"G1513N": {
+			"SbjTitle": "",
+			"SbjTea": "梁穎",
+			"SbjPrefix": ""
+		},
+		"G1513O": {
+			"SbjTitle": "",
+			"SbjTea": "張文漢",
+			"SbjPrefix": ""
+		},
+		"G1513P": {
+			"SbjTitle": "",
+			"SbjTea": "陳韻如",
+			"SbjPrefix": ""
+		},
+		"G1513Q": {
+			"SbjTitle": "",
+			"SbjTea": "許展嘉",
+			"SbjPrefix": ""
+		},
+		"G1613V": {
+			"SbjTitle": "",
+			"SbjTea": "林芷苓",
+			"SbjPrefix": "日語(一)、日語(二)修畢"
+		},
+		"G3811C": {
+			"SbjTitle": "",
+			"SbjTea": "唐吉民",
+			"SbjPrefix": ""
+		},
+		"G3821A": {
+			"SbjTitle": "",
+			"SbjTea": "陳俊民",
+			"SbjPrefix": "無"
+		},
+		"G3861C": {
+			"SbjTitle": "",
+			"SbjTea": "李惠婷",
+			"SbjPrefix": ""
+		},
+		"G3871B": {
+			"SbjTitle": "",
+			"SbjTea": "歐陽振漢",
+			"SbjPrefix": ""
+		},
+		"I1252": {
+			"SbjTitle": "",
+			"SbjTea": "黃國軒",
+			"SbjPrefix": ""
+		},
+		"I1262": {
+			"SbjTitle": "",
+			"SbjTea": "黃國軒",
+			"SbjPrefix": ""
+		},
+		"I2080A": {
+			"SbjTitle": "數位電子實驗",
+			"SbjTea": "蔡佳勝",
+			"SbjPrefix": ""
+		},
+		"I2090A": {
+			"SbjTitle": "數位電子學",
+			"SbjTea": "蔡佳勝",
+			"SbjPrefix": "微積分"
+		},
+		"I2330A": {
+			"SbjTitle": "組合語言",
+			"SbjTea": "謝忠健",
+			"SbjPrefix": "程式設計"
+		},
+		"I2360A": {
+			"SbjTitle": "物件導向程式設計",
+			"SbjTea": "柯振揚",
+			"SbjPrefix": "C or C++ programming language"
+		},
+		"I2400": {
+			"SbjTitle": "資料結構",
+			"SbjTea": "謝尚琳",
+			"SbjPrefix": "Familiarity with C or some other programming language, and"
+		},
+		"G1970A": {
+			"SbjTitle": "全民國防教育軍事訓練_全民國防",
+			"SbjTea": "胡乾增",
+			"SbjPrefix": "無"
+		},
+		"I3690": {
+			"SbjTitle": "Information",
+			"SbjTea": "葉慶隆張薰文",
+			"SbjPrefix": "資工系大二、三、四修過基礎課程、核心課程者"
+		},
+	"_3": {
+		"G1515H": {
+			"SbjTitle": "",
+			"SbjTea": "蘇政傑",
+			"SbjPrefix": "修完英文三、四者"
+		},
+		"G3011D": {
+			"SbjTitle": "",
+			"SbjTea": "郭譽申",
+			"SbjPrefix": ""
+		},
+		"G3011E": {
+			"SbjTitle": "",
+			"SbjTea": "包蒼龍",
+			"SbjPrefix": ""
+		},
+		"G3011H": {
+			"SbjTitle": "",
+			"SbjTea": "鄭福炯",
+			"SbjPrefix": ""
+		},
+		"G3011I": {
+			"SbjTitle": "",
+			"SbjTea": "謝忠健",
+			"SbjPrefix": ""
+		},
+		"G3011J": {
+			"SbjTitle": "",
+			"SbjTea": "林金城",
+			"SbjPrefix": ""
+		},
+		"G3011K": {
+			"SbjTitle": "",
+			"SbjTea": "陳俊銘",
+			"SbjPrefix": ""
+		},
+		"G3011L": {
+			"SbjTitle": "",
+			"SbjTea": "虞台文",
+			"SbjPrefix": ""
+		},
+		"G3011M": {
+			"SbjTitle": "",
+			"SbjTea": "葉慶隆",
+			"SbjPrefix": ""
+		},
+		"G3011N": {
+			"SbjTitle": "",
+			"SbjTea": "謝禎冏",
+			"SbjPrefix": ""
+		},
+		"G3011O": {
+			"SbjTitle": "",
+			"SbjTea": "張嘉銘",
+			"SbjPrefix": ""
+		},
+		"G3011P": {
+			"SbjTitle": "",
+			"SbjTea": "謝尚琳",
+			"SbjPrefix": ""
+		},
+		"G3011Q": {
+			"SbjTitle": "",
+			"SbjTea": "蔡佳勝",
+			"SbjPrefix": ""
+		},
+		"G3011R": {
+			"SbjTitle": "",
+			"SbjTea": "曾嘉影",
+			"SbjPrefix": ""
+		},
+		"G3011S": {
+			"SbjTitle": "",
+			"SbjTea": "鄭穎懋",
+			"SbjPrefix": ""
+		},
+		"G3011T": {
+			"SbjTitle": "",
+			"SbjTea": "高一統",
+			"SbjPrefix": ""
+		},
+		"G3011U": {
+			"SbjTitle": "",
+			"SbjTea": "黃國軒",
+			"SbjPrefix": ""
+		},
+		"I2120": {
+			"SbjTitle": "",
+			"SbjTea": "",
+			"SbjPrefix": ""
+		},
+		"I2150": {
+			"SbjTitle": "邏輯設計",
+			"SbjTea": "謝忠健",
+			"SbjPrefix": ""
+		},
+		"I2330C": {
+			"SbjTitle": "組合語言",
+			"SbjTea": "曾嘉影",
+			"SbjPrefix": "程式設計"
+		},
+		"I2620A": {
+			"SbjTitle": "機率與統計",
+			"SbjTea": "張薰文",
+			"SbjPrefix": "基本微積分概念"
+		},
+		"I3320A": {
+			"SbjTitle": "作業系統",
+			"SbjTea": "張嘉銘",
+			"SbjPrefix": "Systems Programming and/or Computer Organization"
+		},
+		"I3400A": {
+			"SbjTitle": "計算機演算法",
+			"SbjTea": "張薰文",
+			"SbjPrefix": ""
+		},
+		"I3090": {
+			"SbjTitle": "Embeded",
+			"SbjTea": "曾嘉影",
+			"SbjPrefix": "邏輯設計"
+		},
+		"I3110": {
+			"SbjTitle": "資訊安全實習",
+			"SbjTea": "謝尚琳",
+			"SbjPrefix": ""
+		},
+		"I3160": {
+			"SbjTitle": "Introduction",
+			"SbjTea": "林金城",
+			"SbjPrefix": "無 (最好修過計算機概論)"
+		},
+		"I3200": {
+			"SbjTitle": "虛擬化技術",
+			"SbjTea": "張嘉銘",
+			"SbjPrefix": "計算機概論"
+		},
+		"I3210": {
+			"SbjTitle": "iPhone/iPad",
+			"SbjTea": "卓世明",
+			"SbjPrefix": "C Programming"
+		},
+		"I3690": {
+			"SbjTitle": "Information",
+			"SbjTea": "葉慶隆張薰文",
+			"SbjPrefix": "資工系大二、三、四修過基礎課程、核心課程者"
+		},
+		"I4050": {
+			"SbjTitle": "系統安全",
+			"SbjTea": "包蒼龍",
+			"SbjPrefix": "計算機概論"
+		},
+	"_4": {
+		"G3020A": {
+			"SbjTitle": "",
+			"SbjTea": "林淑瓊",
+			"SbjPrefix": ""
+		},
+		"G3020B": {
+			"SbjTitle": "專題實驗",
+			"SbjTea": "張薰文",
+			"SbjPrefix": ""
+		},
+		"G3020C": {
+			"SbjTitle": "專題實驗",
+			"SbjTea": "包蒼龍",
+			"SbjPrefix": ""
+		},
+		"G3020D": {
+			"SbjTitle": "專題實驗",
+			"SbjTea": "包蒼龍",
+			"SbjPrefix": ""
+		},
+		"G3020E": {
+			"SbjTitle": "專題實驗",
+			"SbjTea": "鄭福炯",
+			"SbjPrefix": ""
+		},
+		"G3020F": {
+			"SbjTitle": "專題實驗",
+			"SbjTea": "謝忠健",
+			"SbjPrefix": ""
+		},
+		"G3020G": {
+			"SbjTitle": "專題實驗",
+			"SbjTea": "林金城",
+			"SbjPrefix": "N/A"
+		},
+		"G3020H": {
+			"SbjTitle": "專題實驗",
+			"SbjTea": "虞台文",
+			"SbjPrefix": "N/A"
+		},
+		"G3020I": {
+			"SbjTitle": "專題實驗",
+			"SbjTea": "虞台文",
+			"SbjPrefix": "N/A"
+		},
+		"G3020J": {
+			"SbjTitle": "專題實驗",
+			"SbjTea": "謝禎冏",
+			"SbjPrefix": ""
+		},
+		"G3020K": {
+			"SbjTitle": "專題實驗",
+			"SbjTea": "謝禎冏",
+			"SbjPrefix": ""
+		},
+		"G3020L": {
+			"SbjTitle": "專題實驗",
+			"SbjTea": "張嘉銘",
+			"SbjPrefix": ""
+		},
+		"G3020M": {
+			"SbjTitle": "專題實驗",
+			"SbjTea": "謝尚琳",
+			"SbjPrefix": ""
+		},
+		"G3020N": {
+			"SbjTitle": "專題實驗",
+			"SbjTea": "曾嘉影",
+			"SbjPrefix": ""
+		},
+		"G3020O": {
+			"SbjTitle": "專題實驗",
+			"SbjTea": "曾嘉影",
+			"SbjPrefix": ""
+		},
+		"G3020P": {
+			"SbjTitle": "專題實驗",
+			"SbjTea": "鄭穎懋",
+			"SbjPrefix": ""
+		},
+		"G3020Q": {
+			"SbjTitle": "專題實驗",
+			"SbjTea": "高一統",
+			"SbjPrefix": ""
+		},
+		"G3020R": {
+			"SbjTitle": "專題實驗",
+			"SbjTea": "黃國軒",
+			"SbjPrefix": ""
+		},
+		"I2000A": {
+			"SbjTitle": "Seminar",
+			"SbjTea": "蔡佳勝",
+			"SbjPrefix": "None"
+		},
+		"G1020A": {
+			"SbjTitle": "英語閱讀測驗訓練",
+			"SbjTea": "李信明",
+			"SbjPrefix": ""
+		},
+		"G1020B": {
+			"SbjTitle": "英語閱讀測驗訓練",
+			"SbjTea": "李信明",
+			"SbjPrefix": ""
+		},
+		"G1030A": {
+			"SbjTitle": "Training",
+			"SbjTea": "湯佳美",
+			"SbjPrefix": ""
+		},
+		"G1030B": {
+			"SbjTitle": "Training",
+			"SbjTea": "湯佳美",
+			"SbjPrefix": ""
+		},
+		"I3090": {
+			"SbjTitle": "Embeded",
+			"SbjTea": "曾嘉影",
+			"SbjPrefix": "邏輯設計"
+		},
+		"I3110": {
+			"SbjTitle": "資訊安全實習",
+			"SbjTea": "謝尚琳",
+			"SbjPrefix": ""
+		},
+		"I3160": {
+			"SbjTitle": "Introduction",
+			"SbjTea": "林金城",
+			"SbjPrefix": "無 (最好修過計算機概論)"
+		},
+		"I3200": {
+			"SbjTitle": "虛擬化技術",
+			"SbjTea": "張嘉銘",
+			"SbjPrefix": "計算機概論"
+		},
+		"I3210": {
+			"SbjTitle": "iPhone/iPad",
+			"SbjTea": "卓世明",
+			"SbjPrefix": "C Programming"
+		},
+		"I3690": {
+			"SbjTitle": "Information",
+			"SbjTea": "葉慶隆張薰文",
+			"SbjPrefix": "資工系大二、三、四修過基礎課程、核心課程者"
+		},
+		"I4050": {
+			"SbjTitle": "系統安全",
+			"SbjTea": "包蒼龍",
+			"SbjPrefix": "計算機概論"
+		},
+		"I4060": {
+			"SbjTitle": "I",
+			"SbjTea": "林佳添",
+			"SbjPrefix": "無"
+		},
+		"I4070": {
+			"SbjTitle": "",
+			"SbjTea": "",
+			"SbjPrefix": ""
+		},
+		"I4300": {
+			"SbjTitle": "雲端應用開發",
+			"SbjTea": "郭譽申",
+			"SbjPrefix": "Java programming is required. Web knowledge and UI"
+		},
+		"I4320": {
+			"SbjTitle": "作業系統設計",
+			"SbjTea": "曾嘉影",
+			"SbjPrefix": "作業系統"
+		},
+		"I4350": {
+			"SbjTitle": "平行程式設計",
+			"SbjTea": "柯振揚",
+			"SbjPrefix": "程式設計"
+		},
+		"I4420A": {
+			"SbjTitle": "軟體工程",
+			"SbjTea": "林金城",
+			"SbjPrefix": "程式設計"
+		},
+		"I4480": {
+			"SbjTitle": "Introduction",
+			"SbjTea": "林金城，謝尚琳",
+			"SbjPrefix": ""
+		},
+		"I4580": {
+			"SbjTitle": "Independent",
+			"SbjTea": "鄭穎懋，葉慶隆",
+			"SbjPrefix": "語意服務導向架構、XML技術與電子商務、語意網與知識管理"
+		},
+		"I4600": {
+			"SbjTitle": "圖形理論",
+			"SbjTea": "柯振揚",
+			"SbjPrefix": ""
+		},
+		"I5250": {
+			"SbjTitle": "計算機系統結構",
+			"SbjTea": "謝忠健",
+			"SbjPrefix": "I3250 Computer Organization"
+		},
+		"I5320A": {
+			"SbjTitle": "密碼學",
+			"SbjTea": "黃國軒",
+			"SbjPrefix": ""
+		},
+		"I5450": {
+			"SbjTitle": "Design",
+			"SbjTea": "李良德鄭福炯",
+			"SbjPrefix": "數位系統導論"
+		},
+		"I5560": {
+			"SbjTitle": "影像分析與處理",
+			"SbjTea": "謝禎冏",
+			"SbjPrefix": ""
+		},
+		"I5700A": {
+			"SbjTitle": "Semantic",
+			"SbjTea": "葉慶隆",
+			"SbjPrefix": ""
+		},
+		"I5780": {
+			"SbjTitle": "遊戲程式設計",
+			"SbjTea": "陳俊銘",
+			"SbjPrefix": ""
+		},
+		"I5970": {
+			"SbjTitle": "太空探險",
+			"SbjTea": "劉登凱包蒼龍",
+			"SbjPrefix": "NA"
+		},
+}
