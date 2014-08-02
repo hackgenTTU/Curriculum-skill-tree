@@ -17,6 +17,7 @@ var classRect = (function () {
         	ctx.fillStyle = "rgb(200,0,0)";
         ctx.fillRect (this.site.x, this.site.y, this.size.w, this.size.h);//設定位置（x, y, width, height）
         ctx.font = "30px Arial";
+        ctx.fillStyle = "rgb(0,0,0)";
 		ctx.fillText(this.title,this.site.x,this.site.y);
 	};
 	classRect.prototype.clearAll = function() {
