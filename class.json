@@ -71,9 +71,9 @@
 			"SbjPrefix": "No background assumed"
 		},
 		"G1431J": {
-			"SbjTitle": "",
-			"SbjTea": "",
-			"SbjPrefix": ""
+			"SbjTitle": "Ability",
+			"SbjTea": "紀俊龍",
+			"SbjPrefix": "無"
 		},
 		"G1511G": {
 			"SbjTitle": "",
@@ -134,7 +134,8 @@
 			"SbjTitle": "線性代數",
 			"SbjTea": "高一統",
 			"SbjPrefix": "none"
-		},
+		}
+	},
 	"_2": {
 		"G1513I": {
 			"SbjTitle": "",
@@ -250,7 +251,8 @@
 			"SbjTitle": "Information",
 			"SbjTea": "葉慶隆張薰文",
 			"SbjPrefix": "資工系大二、三、四修過基礎課程、核心課程者"
-		},
+		}
+	},
 	"_3": {
 		"G1515H": {
 			"SbjTitle": "",
@@ -401,7 +403,8 @@
 			"SbjTitle": "系統安全",
 			"SbjTea": "包蒼龍",
 			"SbjPrefix": "計算機概論"
-		},
+		}
+	},
 	"_4": {
 		"G3020A": {
 			"SbjTitle": "",
@@ -633,4 +636,5 @@
 			"SbjTea": "劉登凱包蒼龍",
 			"SbjPrefix": "NA"
 		}
+	}
 }
