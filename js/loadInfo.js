@@ -22,8 +22,9 @@ function load() {
     function state_Change() {
         if (xmlhttp.readyState == 4) { // 4 = "loaded"
             if (xmlhttp.status == 200) { // 200 = OK
-                
-                json = JSON.parse(xmlhttp.response);
+
+                console.log(xmlhttp.response);
+                json = JSON.parse(xmlhttp.responseText)
             } else {
                 alert("Problem retrieving XML data");
             }
