@@ -1,4 +1,5 @@
 var json = null;
+
 function load() {
     var xmlhttp = null;
     if (window.XMLHttpRequest) { // code for all new browsers
@@ -9,7 +10,7 @@ function load() {
     if (xmlhttp != null) {
         xmlhttp.onreadystatechange = state_Change;
 
-        xmlhttp.open("get", "./class.json", true);
+        xmlhttp.open("get", "class.json", false);
         xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
         xmlhttp.send();
 
@@ -26,4 +27,5 @@ function load() {
             }
         }
     }
+    return json;
 }

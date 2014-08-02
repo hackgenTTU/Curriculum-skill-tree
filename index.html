@@ -1,80 +1,71 @@
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script type="text/javascript" src="js/main.js"></script>
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/loadInfo.js"></script>
-	<script>
-			$( document ).ready(function() {
-				$(".tabName").on('click', function() {
-					var tabToShow = $(this).attr('value');
-					$(".tabpane").hide();
-					$("#"+tabToShow).show();
-				});
-			});
-			
-	</script>
-
+    <title>人生就像RPG - 淦這擋修一定是Bug</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<header></header>
-	<div id="grade">
-		<div class="grades" id="one">1</div>
-		<div class="grades" id="two">2</div>
-		<div class="grades" id="three">3</div>
-		<div class="grades" id="four">4</div>
-
-	</div>
-	<div class="abgne_tab" id="center">
-		<ul class="tabs">
-			<li class = "tabName" value = "tab1">
-				<a href="#tab1" id = "tab_1">校訂必修</a>
-			</li>
-			<li class = "tabName" value = "tab2">
-				<a href="#tab2" id = "tab_2">系訂必修</a>
-			</li>
-			<li class = "tabName" value = "tab3">
-				<a href="#tab3" id = "tab_3">系訂選修</a>
-			</li>
-			<li class = "tabName" value = "tab4">
-				<a href="#tab4" id = "tab_4">通識</a>
-			</li>
-		</ul>
-		<div class = "tabcontent">
-			<canvas id = "tab1"></canvas>
-			<canvas id = "tab2"></canvas>
-			<canvas id = "tab3"></canvas>
-			<canvas id = "tab4"></canvas>
-		</div>
-	</div>
-	<footer></footer>
-	<script type="text/javascript">
-		$(function(){
-			// 預設顯示第一個 Tab
-			var _showTab = 0;
-			$('.abgne_tab').each(function(){
-				// 目前的頁籤區塊
-				var $tab = $(this);
-				var $defaultLi = $('ul.tabs li', $tab).eq(_showTab).addClass('active');
-				$($defaultLi.find('a').attr('href')).siblings().hide();
-				// 當 li 頁籤被點擊時...
-				// 若要改成滑鼠移到 li 頁籤就切換時, 把 click 改成 mouseover
-				$('ul.tabs li', $tab).click(function() {
-					// 找出 li 中的超連結 href(#id)
-					var $this = $(this),
-						_clickTab = $this.find('a').attr('href');
-					// 把目前點擊到的 li 頁籤加上 .active
-					// 並把兄弟元素中有 .active 的都移除 class
-					$this.addClass('active').siblings('.active').removeClass('active');
-					// 淡入相對應的內容並隱藏兄弟元素
-					$(_clickTab).stop(false, true).fadeIn().siblings().hide();
-					return false;
-				}).find('a').focus(function(){
-					this.blur();
-				});
-			});
-		});
-	</script>
+    <header></header>
+    <div id="grade">
+        <div class="grades" id="one">1</div>
+        <div class="grades" id="two">2</div>
+        <div class="grades" id="three">3</div>
+        <div class="grades" id="four">4</div>
+    </div>
+    <div class="abgne_tab" id="center">
+        <ul class="tabs">
+            <li class="tabName" value="tab1">
+                <a href="#tab1" id="tab_1">校訂必修</a>
+            </li>
+            <li class="tabName" value="tab2">
+                <a href="#tab2" id="tab_2">系訂必修</a>
+            </li>
+            <li class="tabName" value="tab3">
+                <a href="#tab3" id="tab_3">系訂選修</a>
+            </li>
+            <li class="tabName" value="tab4">
+                <a href="#tab4" id="tab_4">通識</a>
+            </li>
+        </ul>
+        <div class="tabcontent">
+            <canvas id="tab1"></canvas>
+            <canvas id="tab2"></canvas>
+            <canvas id="tab3"></canvas>
+            <canvas id="tab4"></canvas>
+        </div>
+    </div>
+    <footer></footer>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/loadInfo.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript">
+	    $(function() {
+	        // 預設顯示第一個 Tab
+	        var _showTab = 0;
+	        $('.abgne_tab').each(function() {
+	            // 目前的頁籤區塊
+	            var $tab = $(this);
+	            var $defaultLi = $('ul.tabs li', $tab).eq(_showTab).addClass('active');
+	            $($defaultLi.find('a').attr('href')).siblings().hide();
+	            // 當 li 頁籤被點擊時...
+	            // 若要改成滑鼠移到 li 頁籤就切換時, 把 click 改成 mouseover
+	            $('ul.tabs li', $tab).click(function() {
+	                // 找出 li 中的超連結 href(#id)
+	                var $this = $(this),
+	                    _clickTab = $this.find('a').attr('href');
+	                // 把目前點擊到的 li 頁籤加上 .active
+	                // 並把兄弟元素中有 .active 的都移除 class
+	                $this.addClass('active').siblings('.active').removeClass('active');
+	                // 淡入相對應的內容並隱藏兄弟元素
+	                $(_clickTab).stop(false, true).fadeIn().siblings().hide();
+	                return false;
+	            }).find('a').focus(function() {
+	                this.blur();
+	            });
+	        });
+	    });
+		tree = new skillTree(load())
+		tree.draw()
+    </script>
 </body>
 </html>

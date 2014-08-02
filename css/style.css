@@ -1,76 +1,71 @@
-
 .grades {
-  font-size: 22pt;
-  text-align: center;
-  top: 30px;
-  width: 10%;
-  margin: 50px 0px 150px 5%;
-  background-color: #0f0;
+    font-size: 22pt;
+    text-align: center;
+    top: 30px;
+    width: 10%;
+    margin: 50px 0px 150px 5%;
+    background-color: #0f0;
 }
 .abgne_tab {
-  position: absolute;
-  top: 8px;
-  left: 20%;
-  width: 100%;
-  height: 100%;
+    position: absolute;
+    top: 8px;
+    left: 20%;
+    width: 100%;
+    height: 100%;
 }
-
 ul, li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 .abgne_tab {
-  clear: left;
-  width: 75%;
-  margin: 10px 0;
+    clear: left;
+    width: 75%;
+    margin: 10px 0;
 }
 ul.tabs {
-  width: 100%;
-  height: 34px;
-  border-bottom: 1px solid #999;
-  border-left: 1px solid #999;
+    width: 100%;
+    height: 34px;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
 }
 ul.tabs li {
-  float: left;
-  height: 33px;
-  line-height: 33px;
-  overflow: hidden;
-  position: relative;
-  margin-bottom: -1px;  /* 讓 li 往下移來遮住 ul 的部份 border-bottom */
-  border: 1px solid #999;
-  border-left: none;
-  background: #e1e1e1;
+    float: left;
+    height: 33px;
+    line-height: 33px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: -1px; /* 讓 li 往下移來遮住 ul 的部份 border-bottom */
+    border: 1px solid #999;
+    border-left: none;
+    background: #e1e1e1;
 }
 ul.tabs li a {
-  display: block;
-  padding: 0 10px 0 10px;
-  color: #000;
-  border: 1px solid #fff;
-  text-decoration: none;
+    display: block;
+    padding: 0 10px 0 10px;
+    color: #000;
+    border: 1px solid #fff;
+    text-decoration: none;
 }
 ul.tabs li a:hover {
-  background: #ccc;
+    background: #ccc;
 }
-ul.tabs li.active  {
-  background: #fff;
-  border-bottom: 1px solid#fff;
+ul.tabs li.active {
+    background: #fff;
+    border-bottom: 1px solid#fff;
 }
 ul.tabs li.active a:hover {
-  background: #fff;
+    background: #fff;
 }
 div.tabcontent {
-  clear: left;
-  width: 100%;
-  border: 1px solid #999;
-  border-top: none;
-  background: #fff;
+    clear: left;
+    width: 100%;
+    border: 1px solid #999;
+    border-top: none;
+    background: #fff;
 }
 div.tabcontent .tabpane {
-  padding: 20px;
-  width: :100%;
-  height: 80%;
-}
-canvas {
-  width: 100%;
+    padding: 20px;
+    width: :100%;
+    height: 80%;
 }
