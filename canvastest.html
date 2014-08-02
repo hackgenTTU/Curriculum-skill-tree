@@ -7,17 +7,18 @@
 	function draw()
 	{
 		var canvas = document.getElementById('test');
-		if(canvas.getContext)
+		//canvas ： 定位canvas
+		if(canvas.getContext)//測試瀏覽器是否支援
 		{
-			var ctx = canvas.getContext("2d");
-			ctx.fillStyle = "rgb(200,0,0)";
-        	ctx.fillRect (10, 10, 55, 50);
+			var ctx = canvas.getContext("2d");//設定為2D模式
+			ctx.fillStyle = "rgb(200,0,0)";//設定圖形顏色（Red, Green, Blue）
+        	ctx.fillRect (10, 10, 55, 50);//設定位置（x, y, width, height）
 
-        	ctx.fillStyle = "rgba(0, 0, 200, 0.5)";
-        	ctx.fillRect (30, 30, 55, 50);
+        	ctx.fillStyle = "rgba(0, 0, 200, 0.5)";//設定圖形顏色與透明度（Red, Green, Blue, Alpha）
+        	ctx.fillRect (30, 30, 55, 50);//設定位置（x, y, width, height, 
 		}
 		else
-			alert('棄用不支援HTML5的browser吧>_>');
+			alert('棄用不支援HTML5的browser吧>_>');//不支援去吃土啦（？）
 	}
 	</script>
 </head>
