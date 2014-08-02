@@ -83,8 +83,12 @@ var skillTree = (function() {
 			this.classNumArray.push(json._1[i].SbjID);
 			this.classArray.push(json._1[i].SbjTitle);
 		}
-		for (var i = 0, x = 0; i < this.classArray.length; i++, x += 18) {
-			this.addNode(x, 20, 15, 15, this.classNumArray[i], "tab1");
+		for (var i = 0, x = 18,y=20; i < this.classArray.length; i++, x += 18) {
+			this.addNode(x, y, 15, 15, this.classNumArray[i], "tab1");
+			if(i%13==0&&i!=0){
+				x = 0;
+				y+=20;
+			}
 		}
 	}
 	skillTree.prototype.addNode = function(x, y, w, h, title, canvas) {
