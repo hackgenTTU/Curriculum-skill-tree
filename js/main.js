@@ -76,21 +76,25 @@ var classLine = (function() {
 
 var skillTree = (function() {
 	var skillTree = function(sourec) {
-		this.classArray = [];
-		this.classNumArray = [];
 		this.rectArray = [];
 		this.lineArray = [];
-		for (var i in json._1) {
-			this.classNumArray.push(json._1[i].SbjID);
-			this.classArray.push(json._1[i].SbjTitle);
-		}
-		var classes = $("#content").width() / 70
-		for (var i = 0, x = 20, y = 20; i < this.classArray.length; i++, x += 70) {
-			if (i % Math.floor(classes) == 0 && i != 0){
-				x = 20;
-				y += 70;
+		var y = 20;
+		for (var x in json) {
+			this.classArray = [];
+			this.classNumArray = [];
+			for (var i in json[x]) {
+				this.classNumArray.push(json[x][i].SbjID);
+				this.classArray.push(json[x][i].SbjTitle);
 			}
-			this.addNode(x, y, 50, 50, this.classNumArray[i], "tab1");
+			var classes = $("#content").width() / 70
+			for (var i = 0, x = 20; i < this.classArray.length; i++, x += 70) {
+				if (i % Math.floor(classes) == 0 && i != 0){
+					x = 20;
+					y += 70;
+				}
+				this.addNode(x, y, 50, 50, this.classNumArray[i], "tab1");
+			}
+			y += 100;
 		}
 	}
 	skillTree.prototype.addNode = function(x, y, w, h, title, canvas) {
