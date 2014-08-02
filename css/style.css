@@ -1,6 +1,3 @@
-a{
-  text-decoration: none;
-}
 .grades {
   font-size: 22pt;
   text-align: center;
@@ -9,34 +6,68 @@ a{
   margin: 0px 0px 150px 5%;
   background-color: #0f0;
 }
-.curriculum {
+.abgne_tab {
   position: absolute;
   top: 8px;
   left: 20%;
   width: 75%;
   height: 720px;
-  background-color: #0ff;
 }
-.tabs {
-  position: absolute;
-  top: 8px;
-  left: 20%;
-  width: 75%;
-  height: 100px;
-  background-color: #0ff;
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
-.tabs ul:after {
-  clear: both;
+.abgne_tab {
+  clear: left;
+  width: 400px;
+  margin: 10px 0;
 }
-.tabName {
+ul.tabs {
+  width: 100%;
+  height: 32px;
+  border-bottom: 1px solid #999;
+  border-left: 1px solid #999;
+}
+ul.tabs li {
   float: left;
-  width: 25%;
+  height: 31px;
+  line-height: 31px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: -1px;  /* 讓 li 往下移來遮住 ul 的部份 border-bottom */
+  border: 1px solid #999;
+  border-left: none;
+  background: #e1e1e1;
 }
-.tab-content {
-  position: absolute;
-  top: 108px;
-  left: 20%;
-  width: 75%;
-  height: 600px;
-  background-color: #ff0;
+ul.tabs li a {
+  display: block;
+  padding: 0 20px;
+  color: #000;
+  border: 1px solid #fff;
+  text-decoration: none;
+}
+ul.tabs li a:hover {
+  background: #ccc;
+}
+ul.tabs li.active  {
+  background: #fff;
+  border-bottom: 1px solid#fff;
+}
+ul.tabs li.active a:hover {
+  background: #fff;
+}
+div.tabcontent {
+  clear: left;
+  width: 100%;
+  border: 1px solid #999;
+  border-top: none;
+  background: #fff;
+}
+div.tabcontent .tabpane {
+  padding: 20px;
+}
+div.tabcontent .tabpane h2 {
+  margin: 0 0 20px;
 }
