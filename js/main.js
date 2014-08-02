@@ -17,7 +17,7 @@ var classRect = (function() {
 			'h': h
 		};
 		this.canvas = document.getElementById(canvas);
-		this.canvas.width = window.innerWidth
+		this.canvas.width = $("#content").width()
 		this.canvas.height = window.innerHeight
 	};
 	classRect.prototype.draw = function(r, g, b) {
@@ -27,9 +27,9 @@ var classRect = (function() {
 		else
 			ctx.fillStyle = "rgb(200,0,0)";
 		ctx.fillRect(this.site.x, this.site.y, this.size.w, this.size.h); //設定位置（x, y, width, height）
-		ctx.font = "18px Arial";
+		ctx.font = "16px Arial";
 		ctx.fillStyle = "rgb(0,0,0)";
-		ctx.fillText(this.title, this.site.x, this.site.y);
+		ctx.fillText(this.title, this.site.x, this.site.y - 2);
 	};
 	classRect.prototype.clearAll = function() {
 
@@ -44,7 +44,6 @@ var classRect = (function() {
 })();
 
 var classLine = (function() {
-
 	var classLine = function(x, y, canvas) {
 		this.node = [];
 		this.head = {
@@ -86,13 +85,15 @@ var skillTree = (function() {
 			this.classArray.push(json._1[i].SbjTitle);
 		}
 
-		for (var i = 0, x = 60,y = 15; i < this.classArray.length; i++, x += 60) {
-			this.addNode(x, y, 50, 50, this.classNumArray[i], "tab1");
-			if(i%13==0&&i!=0){
-				x = 0;
-				y+=60;
-			}
 
+		var classes = $("#content").width() / 70
+		for (var i = 0, x = 20, y = 20; i < this.classArray.length; i++, x += 70) {
+			if (i % Math.floor(classes) == 0 && i != 0){
+				x = 20;
+				y += 70;
+
+			}
+			this.addNode(x, y, 50, 50, this.classNumArray[i], "tab1");
 		}
 	}
 	skillTree.prototype.addNode = function(x, y, w, h, title, canvas) {
