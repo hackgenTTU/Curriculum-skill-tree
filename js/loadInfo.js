@@ -21,7 +21,7 @@ function load() {
         if (xmlhttp.readyState == 4) { // 4 = "loaded"
             if (xmlhttp.status == 200) { // 200 = OK
                 console.log(xmlhttp.response);
-                json=eval(xmlhttp.response);
+                json = JSON.parse(xmlhttp.responseText)
             } else {
                 alert("Problem retrieving XML data");
             }
