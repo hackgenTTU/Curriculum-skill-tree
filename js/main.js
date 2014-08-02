@@ -17,7 +17,7 @@ var classRect = (function() {
 			'h': h
 		};
 		this.canvas = document.getElementById(canvas);
-		this.canvas.width = window.innerWidth
+		this.canvas.width = $("#content").width()
 		this.canvas.height = window.innerHeight
 	};
 	classRect.prototype.draw = function(r, g, b) {
@@ -84,9 +84,9 @@ var skillTree = (function() {
 			this.classNumArray.push(json._1[i].SbjID);
 			this.classArray.push(json._1[i].SbjTitle);
 		}
-
+		var classes = $("#content").width() / 70
 		for (var i = 0, x = 20, y = 20; i < this.classArray.length; i++, x += 70) {
-			if (i % 14 == 0 && i != 0){
+			if (i % Math.floor(classes) == 0 && i != 0){
 				x = 20;
 				y += 70;
 			}
