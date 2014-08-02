@@ -1,8 +1,12 @@
 .grades {
+  font-size:0.8cm;
+  text-align:center;
+  top:25%;
   width: 10%;
   height: 5%;
   margin: 10% 0px 10% 5%;
   background-color: #0f0;
+
 }
 #curriculum {
   position: absolute;
