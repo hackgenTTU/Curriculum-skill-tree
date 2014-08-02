@@ -17,6 +17,8 @@ var classRect = (function() {
 			'h': h
 		};
 		this.canvas = document.getElementById(canvas);
+		this.canvas.width = window.innerWidth
+		this.canvas.height = window.innerHeight
 	};
 	classRect.prototype.draw = function(r, g, b) {
 		var ctx = this.canvas.getContext('2d');
@@ -25,7 +27,7 @@ var classRect = (function() {
 		else
 			ctx.fillStyle = "rgb(200,0,0)";
 		ctx.fillRect(this.site.x, this.site.y, this.size.w, this.size.h); //設定位置（x, y, width, height）
-		ctx.font = "5px Arial";
+		ctx.font = "18px Arial";
 		ctx.fillStyle = "rgb(0,0,0)";
 		ctx.fillText(this.title, this.site.x, this.site.y);
 	};
@@ -83,8 +85,8 @@ var skillTree = (function() {
 			this.classNumArray.push(json._1[i].SbjID);
 			this.classArray.push(json._1[i].SbjTitle);
 		}
-		for (var i = 0, x = 0; i < this.classArray.length; i++, x += 18) {
-			this.addNode(x, 20, 15, 15, this.classNumArray[i], "tab1");
+		for (var i = 0, x = 0; i < this.classArray.length; i++, x += 60) {
+			this.addNode(x, 20, 50, 50, this.classNumArray[i], "tab1");
 		}
 	}
 	skillTree.prototype.addNode = function(x, y, w, h, title, canvas) {
