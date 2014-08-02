@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Canvas Test</title>
 	<script type="text/javascript">
-	function draw()
+	function draw1()
 	{
 		var canvas = document.getElementById('test');
 		//canvas ： 定位canvas
@@ -20,11 +20,41 @@
 		else
 			alert('棄用不支援HTML5的browser吧>_>');//不支援去吃土啦（？）
 	}
+	function draw2()
+	{
+		var canvas = document.getElementById('test');
+		if(canvas.getContext)
+		{
+			var ctx = canvas.getContext('2d');
+
+			ctx.fillRect(25,25,100,100);//（被）填滿的長方形=///=
+			ctx.strokeRect(45,45,60,60);//（空虛的）長方形（無內容僅有邊框）
+			ctx.clearRect(50,50,50,50);//清除指定區域的短形內容
+		}
+		else
+			alert('棄用不支援HTML5的browser吧');
+	}
+	function draw3()
+	{
+		var canvas = document.getElementById('test');
+		if(canvas.getContext)
+		{
+			var ctx = canvas.getContext('2d');
+
+			ctx.beginPath();//開始路徑繪製
+			ctx.moveTo(75,50);//移動畫筆至指定位置
+    		ctx.lineTo(100,75);//畫一條線，起點從畫筆位置至此位置
+    		ctx.lineTo(100,25);
+    		ctx.fill();//填滿線內 =///=
+		}
+	}
+
 	</script>
 </head>
-<body onload="draw();">
-	<canvas id="test" width="150px" height="150px">
-		
-	</canvas>
+<body>
+	<input type="button" onclick="draw1()" value="Test1">
+	<input type="button" onclick="draw2()" value="Test2">
+	<input type="button" onclick="draw3()" value="Test3">
+	<canvas id="test" width="150px" height="150px"></canvas>
 </body>
 </html>
