@@ -33,9 +33,9 @@ ul.tabs {
 }
 ul.tabs li {
   float: left;
-  height: 33px;
-  width: 90px;
-  line-height: 31px;
+  height: 32px;
+  width: 20%;
+  line-height: 33px;
   overflow: hidden;
   position: relative;
   margin-bottom: -1px;  /* 讓 li 往下移來遮住 ul 的部份 border-bottom */
@@ -45,7 +45,8 @@ ul.tabs li {
 }
 ul.tabs li a {
   display: block;
-  padding: 0 5%;
+
+  padding: 5%,20px
   color: #000;
   border: 1px solid #fff;
   text-decoration: none;
