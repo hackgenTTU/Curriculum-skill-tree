@@ -86,11 +86,11 @@ var skillTree = (function() {
 			this.classArray.push(json._1[i].SbjTitle);
 		}
 
-		for (var i = 0, x = 18,y=20; i < this.classArray.length; i++, x += 18) {
-			this.addNode(x, y, 15, 15, this.classNumArray[i], "tab1");
+		for (var i = 0, x = 60,y = 15; i < this.classArray.length; i++, x += 60) {
+			this.addNode(x, y, 50, 50, this.classNumArray[i], "tab1");
 			if(i%13==0&&i!=0){
 				x = 0;
-				y+=20;
+				y+=60;
 			}
 
 		}
