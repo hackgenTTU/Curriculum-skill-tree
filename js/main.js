@@ -41,18 +41,10 @@ $(document).ready(function() {
         var rect = canvas.getBoundingClientRect();
         node = tree.isMouseIn((mouse.x - rect.left), (mouse.y - rect.top));
         if (node != null) {
-            alert(node.title + "<br/>" + node.name);
-            // var tab = document.getElementById('tab1');
-            // tab.innerHTML+="<div style='position:absolute;top:"+mouse.x+"px;left:"+mouse.y+"px;' id = tmp>ahoga</div>";
-            
-            // $('#tab1').qtip({
-            //     content: 'A simple tooltip for the link',
-            //     style: {
-            //         name: 'dark',
-            //         tip: 'topLeft'
-            //     }
-            // });
-            // // document.getElementById('tmp').remove();
+            alert(node.title + "\n" + node.name);
+            document.getElementById('className').innerHTML="<h4>"+node.name+" "+node.title+"</h4>";
+            // document.getElementById('classTae').innerHTML="bababa";
+            // document.getElementById('classNum').innerHTML="<h5>"+node.title+"</h5>";
         }
 
     }, false);
