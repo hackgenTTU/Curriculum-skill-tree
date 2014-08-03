@@ -29,10 +29,10 @@
             </li>
         </ul>
         <div class="tabcontent" id="content">
-            <canvas id="tab1"></canvas>
-            <canvas id="tab2"></canvas>
-            <canvas id="tab3"></canvas>
-            <canvas id="tab4"></canvas>
+            <canvas id="tab1" resize></canvas>
+            <canvas id="tab2" resize></canvas>
+            <canvas id="tab3" resize></canvas>
+            <canvas id="tab4" resize></canvas>
         </div>
     </div>
     <footer></footer>
@@ -65,8 +65,11 @@
 	            });
 	        });
 	    });
-		tree = new skillTree(load(),"tab1")
-		tree.draw()
+		
+		$(document).ready(function () {
+			tree = new skillTree(load(),"tab1")
+			tree.draw()
+		})
     </script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 var classRect = (function() {
-    var classRect = function(x, y, w, h, title, canvas) {
+    var classRect = function(x, y, title, canvas) {
         if (x != null && y != null) {
             this.site = {
                 'x': x,
@@ -12,12 +12,10 @@ var classRect = (function() {
             };
         }
         this.title = title;
-        this.size = {
-            'w': w,
-            'h': h
-        };
+
         this.canvas = document.getElementById(canvas);
-        this.canvas.width = $("#content").width()
+        console.log(canvas);
+        this.canvas.width =  document.getElementById("content").offsetWidth
         this.canvas.height = window.screen.height
     };
     classRect.prototype.draw = function(r, g, b) {
@@ -32,6 +30,7 @@ var classRect = (function() {
             ctx.fillStyle = "rgb(200,0,0)";
 
         ctx.font = "16px Arial";
+
         ctx.fillText(this.title, this.site.x, this.site.y - 2);
     };
     classRect.prototype.clearAll = function() {
@@ -40,7 +39,7 @@ var classRect = (function() {
     };
     classRect.prototype.delete = function() {
         var ctx = this.canvas.getContext('2d');
-        ctx.clearRect(this.site.x - 1, this.site.y - 1, this.size.w + 1, this.size.h + 1);
+        ctx.clearRect(this.site.x - 1, this.site.y - 1, 50+1,50+1);
     };
 
     return classRect;
@@ -95,13 +94,13 @@ var skillTree = (function() {
                     x = 20;
                     y += 70;
                 }
-                this.addNode(x, y, 50, 50, this.classNumArray[i], canvas);
+                this.addNode(x, y, this.classNumArray[i], canvas);
             }
             y += 100;
         }
     }
-    skillTree.prototype.addNode = function(x, y, w, h, title, canvas) {
-        var newNode = new classRect(x, y, w, h, title, canvas);
+    skillTree.prototype.addNode = function(x, y, title, canvas) {
+        var newNode = new classRect(x, y, title, canvas);
         this.rectArray.push(newNode);
     };
     skillTree.prototype.addLine = function(x, y, canvas) {
