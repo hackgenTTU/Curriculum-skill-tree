@@ -15,7 +15,7 @@ var classRect = (function() {
 
         this.canvas = document.getElementById(canvas);
         console.log(canvas);
-        this.canvas.width =  $("#content").Width
+        this.canvas.width =  $("#content").width()
         this.canvas.height = window.screen.height
     };
     classRect.prototype.draw = function(r, g, b) {
