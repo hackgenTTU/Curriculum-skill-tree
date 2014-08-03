@@ -75,7 +75,7 @@ var classLine = (function() {
 })();
 
 var skillTree = (function() {
-	var skillTree = function(sourec) {
+	var skillTree = function(sourec,canvas) {
 		this.rectArray = [];
 		this.lineArray = [];
 		var y = 20;
@@ -92,7 +92,7 @@ var skillTree = (function() {
 					x = 20;
 					y += 70;
 				}
-				this.addNode(x, y, 50, 50, this.classNumArray[i], "tab1");
+				this.addNode(x, y, 50, 50, this.classNumArray[i], canvas);
 			}
 			y += 100;
 		}
