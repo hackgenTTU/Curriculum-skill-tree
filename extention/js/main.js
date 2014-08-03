@@ -1,3 +1,34 @@
+$(function() {
+    // 預設顯示第一個 Tab
+    var _showTab = 0;
+    $('.abgne_tab').each(function() {
+        // 目前的頁籤區塊
+        var $tab = $(this);
+        var $defaultLi = $('ul.tabs li', $tab).eq(_showTab).addClass('active');
+        $($defaultLi.find('a').attr('href')).siblings().hide();
+        // 當 li 頁籤被點擊時...
+        // 若要改成滑鼠移到 li 頁籤就切換時, 把 click 改成 mouseover
+        $('ul.tabs li', $tab).click(function() {
+            // 找出 li 中的超連結 href(#id)
+            var $this = $(this),
+                _clickTab = $this.find('a').attr('href');
+            // 把目前點擊到的 li 頁籤加上 .active
+            // 並把兄弟元素中有 .active 的都移除 class
+            $this.addClass('active').siblings('.active').removeClass('active');
+            // 淡入相對應的內容並隱藏兄弟元素
+            $(_clickTab).stop(false, true).fadeIn().siblings().hide();
+            return false;
+        }).find('a').focus(function() {
+            this.blur();
+        });
+    });
+});
+
+$(document).ready(function() {
+
+    tree = new skillTree(load(), "tab1")
+    tree.draw()
+})
 var classRect = (function() {
     var classRect = function(x, y, title, canvas) {
         if (x != null && y != null) {
@@ -15,7 +46,7 @@ var classRect = (function() {
 
         this.canvas = document.getElementById(canvas);
         console.log(canvas);
-        this.canvas.width =  $("#content").Width
+        this.canvas.width =  document.getElementById("content").offsetWidth
         this.canvas.height = window.screen.height
     };
     classRect.prototype.draw = function(r, g, b) {
@@ -115,18 +146,6 @@ var skillTree = (function() {
         for (var line in this.lineArray) {
             this.lineArray[line].draw();
         }
-    };
-    skillTree.prototype.isMouseIn = function(x,y) {
-    	for (var node in this.rectArray) {
-    		// console.log(x+" x: "+(this.rectArray[node].site.x) +" "+y+" y:" + (this.rectArray[node].site.y ));
-            if(this.rectArray[node].site.x<x&&x<this.rectArray[node].site.x+50
-            &&this.rectArray[node].site.y<y&&y<this.rectArray[node].site.y+50){
-
-            	return this.rectArray[node];
-            }
-            
-        }
-        return null;
     };
     return skillTree;
 })();
