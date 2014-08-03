@@ -28,6 +28,23 @@ $(document).ready(function() {
 
     tree = new skillTree(load(), "tab1")
     tree.draw()
+
+    var mouse = {
+        x: 0,
+        y: 0
+    };
+
+    document.addEventListener('mousemove', function(e) {
+        var canvas = document.getElementById("tab1");
+        mouse.x = e.clientX;
+        mouse.y = e.clientY;
+        var rect = canvas.getBoundingClientRect();
+        node = tree.isMouseIn((mouse.x - rect.left), (mouse.y - rect.top));
+        if (node != null) {
+            console.log(node.title);
+        }
+
+    }, false);
 })
 var classRect = (function() {
     var classRect = function(x, y, title, canvas) {
@@ -46,7 +63,7 @@ var classRect = (function() {
 
         this.canvas = document.getElementById(canvas);
         console.log(canvas);
-        this.canvas.width =  document.getElementById("content").offsetWidth
+        this.canvas.width = $("#content").width()
         this.canvas.height = window.screen.height
     };
     classRect.prototype.draw = function(r, g, b) {
@@ -70,7 +87,7 @@ var classRect = (function() {
     };
     classRect.prototype.delete = function() {
         var ctx = this.canvas.getContext('2d');
-        ctx.clearRect(this.site.x - 1, this.site.y - 1, 50+1,50+1);
+        ctx.clearRect(this.site.x - 1, this.site.y - 1, 50 + 1, 50 + 1);
     };
 
     return classRect;
@@ -146,6 +163,17 @@ var skillTree = (function() {
         for (var line in this.lineArray) {
             this.lineArray[line].draw();
         }
+    };
+    skillTree.prototype.isMouseIn = function(x, y) {
+        for (var node in this.rectArray) {
+            // console.log(x+" x: "+(this.rectArray[node].site.x) +" "+y+" y:" + (this.rectArray[node].site.y ));
+            if (this.rectArray[node].site.x < x && x < this.rectArray[node].site.x + 50 && this.rectArray[node].site.y < y && y < this.rectArray[node].site.y + 50) {
+
+                return this.rectArray[node];
+            }
+
+        }
+        return null;
     };
     return skillTree;
 })();
