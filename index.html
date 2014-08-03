@@ -65,8 +65,10 @@
 	            });
 	        });
 	    });
-		tree = new skillTree(load(),"tab1")
-		tree.draw()
+		$(document).ready(function() {
+			tree = new skillTree(load(),"tab1")
+			tree.draw()
+		})
     </script>
 </body>
 </html>
