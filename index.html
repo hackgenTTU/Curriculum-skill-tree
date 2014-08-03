@@ -72,6 +72,23 @@
 
         tree = new skillTree(load(), "tab1")
         tree.draw()
+
+        var mouse = {
+            x: 0,
+            y: 0
+        };
+
+        document.addEventListener('mousemove', function(e) {
+            var canvas = document.getElementById("tab1");
+            mouse.x = e.clientX;
+            mouse.y = e.clientY;
+            var rect = canvas.getBoundingClientRect();
+            node = tree.isMouseIn((mouse.x - rect.left), (mouse.y - rect.top));
+            if (node != null) {
+                console.log(node.title);
+            }
+
+        }, false);
     })
     </script>
 </body>

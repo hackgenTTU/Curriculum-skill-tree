@@ -116,5 +116,17 @@ var skillTree = (function() {
             this.lineArray[line].draw();
         }
     };
+    skillTree.prototype.isMouseIn = function(x,y) {
+    	for (var node in this.rectArray) {
+    		// console.log(x+" x: "+(this.rectArray[node].site.x) +" "+y+" y:" + (this.rectArray[node].site.y ));
+            if(this.rectArray[node].site.x<x&&x<this.rectArray[node].site.x+50
+            &&this.rectArray[node].site.y<y&&y<this.rectArray[node].site.y+50){
+
+            	return this.rectArray[node];
+            }
+            
+        }
+        return null;
+    };
     return skillTree;
 })();
