@@ -1,8 +1,7 @@
-chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
-    if (tab.url.indexOf('ascoresbj') > -1) {
-        console.log(tabId)
-        chrome.pageAction.show(tabId);
-        // var newurl = "javascript:location.assign(zzz);";
-        // chrome.tabs.update(tab.id, {url: newurl});
+chrome.runtime.onMessage.addListener(function(msg, sender) {
+    /* First, validate the message's structure */
+    if ((msg.from === 'content') && (msg.subject === 'showPageAction')) {
+        /* Enable the page-action for the requesting tab */
+        chrome.pageAction.show(sender.tab.id);
     }
 });

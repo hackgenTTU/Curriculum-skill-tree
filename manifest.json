@@ -12,10 +12,12 @@
         "default_title": "你的技能樹",
         "default_popup": "index.html"
     },
-    "permissions": [
-        "tabs",
-        "http://stucis.ttu.edu.tw/academic/ascoresbj.php"
-    ],
+    "content_scripts": [{
+        "matches":    ["http://stucis.ttu.edu.tw/academic/ascoresbj.php"],
+        "js":         ["content.js"],
+        "run_at":     "document_idle",
+        "all_frames": false
+    }],
     "background": {
         "scripts": [
             "background.js"

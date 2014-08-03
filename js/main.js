@@ -41,10 +41,14 @@ $(document).ready(function() {
         var rect = canvas.getBoundingClientRect();
         node = tree.isMouseIn((mouse.x - rect.left), (mouse.y - rect.top));
         if (node != null) {
-        	node.del();
-        	tree.draw();
+
+            node.del();
+            tree.draw();
             node.drawCC();
-            document.getElementById('className').innerHTML="<h4>"+node.name+" "+node.title+"</h4>";
+
+            console.log(node.title + "\n" + node.name);
+
+            document.getElementById('className').innerHTML = "<h4>" + node.name + " " + node.title + "</h4>";
 
         }
 
