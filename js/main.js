@@ -41,10 +41,11 @@ $(document).ready(function() {
         var rect = canvas.getBoundingClientRect();
         node = tree.isMouseIn((mouse.x - rect.left), (mouse.y - rect.top));
         if (node != null) {
-            alert(node.title + "\n" + node.name);
+        	node.del();
+        	tree.draw();
+            node.drawCC();
             document.getElementById('className').innerHTML="<h4>"+node.name+" "+node.title+"</h4>";
-            // document.getElementById('classTae').innerHTML="bababa";
-            // document.getElementById('classNum').innerHTML="<h5>"+node.title+"</h5>";
+
         }
 
     }, false);
@@ -84,11 +85,26 @@ var classRect = (function() {
 
         ctx.fillText(this.title, this.site.x, this.site.y - 2);
     };
+    classRect.prototype.drawCC = function(r, g, b) {
+        var ctx = this.canvas.getContext('2d');
+        var img = document.getElementById("scream2");
+        ctx.drawImage(img, this.site.x, this.site.y);
+
+
+        if (r != null && g != null && b != null)
+            ctx.fillStyle = "rgb(" + r + "," + g + "," + b + ")"; //設定圖形顏色（Red, Green, Blue）
+        else
+            ctx.fillStyle = "rgb(200,0,0)";
+
+        ctx.font = "16px Arial";
+
+        ctx.fillText(this.title, this.site.x, this.site.y - 2);
+    };
     classRect.prototype.clearAll = function() {
 
         this.canvas.width = this.canvas.width;
     };
-    classRect.prototype.delete = function() {
+    classRect.prototype.del = function() {
         var ctx = this.canvas.getContext('2d');
         ctx.clearRect(this.site.x - 1, this.site.y - 1, 50 + 1, 50 + 1);
     };
