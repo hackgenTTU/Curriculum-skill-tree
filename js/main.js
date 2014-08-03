@@ -18,7 +18,7 @@ var classRect = (function() {
 		};
 		this.canvas = document.getElementById(canvas);
 		this.canvas.width = $("#content").width()
-		this.canvas.height = window.innerHeight
+		this.canvas.height = window.screen.height
 	};
 	classRect.prototype.draw = function(r, g, b) {
 		var ctx = this.canvas.getContext('2d');
