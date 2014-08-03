@@ -41,7 +41,7 @@ $(document).ready(function() {
         var rect = canvas.getBoundingClientRect();
         node = tree.isMouseIn((mouse.x - rect.left), (mouse.y - rect.top));
         if (node != null) {
-            alert(node.title + "\n" + node.name);
+            console.log(node.title + "\n" + node.name);
             document.getElementById('className').innerHTML="<h4>"+node.name+" "+node.title+"</h4>";
             // document.getElementById('classTae').innerHTML="bababa";
             // document.getElementById('classNum').innerHTML="<h5>"+node.title+"</h5>";
