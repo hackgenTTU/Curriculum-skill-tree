@@ -74,7 +74,7 @@
 		},
 		{
 			"SbjID": "G1011A",
-			"SbjTitle": "",
+			"SbjTitle": "微積分(一)",
 			"SbjTea": "張建瑋",
 			"SbjPrefix": "高中數學"
 		},
@@ -86,55 +86,55 @@
 		},
 		{
 			"SbjID": "G1431J",
-			"SbjTitle": "Ability",
+			"SbjTitle": "國語文能力表達(一)",
 			"SbjTea": "紀俊龍",
 			"SbjPrefix": "無"
 		},
 		{
 			"SbjID": "G1511G",
-			"SbjTitle": "",
+			"SbjTitle": "英文(一)",
 			"SbjTea": "曾美鳳",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "G1511H",
-			"SbjTitle": "",
+			"SbjTitle": "英文(一)",
 			"SbjTea": "李信明",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "G1511I",
-			"SbjTitle": "",
+			"SbjTitle": "英文(一)",
 			"SbjTea": "張文漢",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "G1511J",
-			"SbjTitle": "",
+			"SbjTitle": "英文(一)",
 			"SbjTea": "楊冀光",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "G1511K",
-			"SbjTitle": "",
+			"SbjTitle": "英文(一)",
 			"SbjTea": "梁穎",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "G1511L",
-			"SbjTitle": "",
+			"SbjTitle": "英文(一)",
 			"SbjTea": "蘇安德",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "G1611C",
-			"SbjTitle": "",
+			"SbjTitle": "日語(一)",
 			"SbjTea": "江裴倩",
 			"SbjPrefix": "無"
 		},
 		{
 			"SbjID": "G1821J",
-			"SbjTitle": "",
+			"SbjTitle": "大一體育(一)",
 			"SbjTea": "唐吉民",
 			"SbjPrefix": ""
 		},
@@ -146,13 +146,13 @@
 		},
 		{
 			"SbjID": "I1251A",
-			"SbjTitle": "",
+			"SbjTitle": "程式設計(一)",
 			"SbjTea": "虞台文",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "I1261A",
-			"SbjTitle": "",
+			"SbjTitle": "程式設計實驗(一)",
 			"SbjTea": "虞台文",
 			"SbjPrefix": "無"
 		},
@@ -166,97 +166,97 @@
 	"_2": [
 		{
 			"SbjID": "G1513I",
-			"SbjTitle": "",
+			"SbjTitle": "英文(三)",
 			"SbjTea": "陳櫻珊",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "G1513J",
-			"SbjTitle": "",
+			"SbjTitle": "英文(三)",
 			"SbjTea": "蘇安德",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "G1513K",
-			"SbjTitle": "",
+			"SbjTitle": "英文(三)",
 			"SbjTea": "江朝偉",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "G1513L",
-			"SbjTitle": "",
+			"SbjTitle": "英文(三)",
 			"SbjTea": "曾美鳳",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "G1513M",
-			"SbjTitle": "",
+			"SbjTitle": "英文(三)",
 			"SbjTea": "吳婷君",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "G1513N",
-			"SbjTitle": "",
+			"SbjTitle": "英文(三)",
 			"SbjTea": "梁穎",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "G1513O",
-			"SbjTitle": "",
+			"SbjTitle": "英文(三)",
 			"SbjTea": "張文漢",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "G1513P",
-			"SbjTitle": "",
+			"SbjTitle": "英文(三)",
 			"SbjTea": "陳韻如",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "G1513Q",
-			"SbjTitle": "",
+			"SbjTitle": "英文(三)",
 			"SbjTea": "許展嘉",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "G1613V",
-			"SbjTitle": "",
+			"SbjTitle": "日語(三)",
 			"SbjTea": "林芷苓",
 			"SbjPrefix": "日語(一)、日語(二)修畢"
 		},
 		{
 			"SbjID": "G3811C",
-			"SbjTitle": "",
+			"SbjTitle": "體育（籃球）(一)",
 			"SbjTea": "唐吉民",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "G3821A",
-			"SbjTitle": "",
+			"SbjTitle": "體育(飛輪運動)(一)",
 			"SbjTea": "陳俊民",
 			"SbjPrefix": "無"
 		},
 		{
 			"SbjID": "G3861C",
-			"SbjTitle": "",
+			"SbjTitle": "體育（羽球）(一)",
 			"SbjTea": "李惠婷",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "G3871B",
-			"SbjTitle": "",
+			"SbjTitle": "體育（保齡球）(一)",
 			"SbjTea": "歐陽振漢",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "I1252",
-			"SbjTitle": "",
+			"SbjTitle": "程式設計(二)",
 			"SbjTea": "黃國軒",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "I1262",
-			"SbjTitle": "",
+			"SbjTitle": "程式設計實驗(二)",
 			"SbjTea": "黃國軒",
 			"SbjPrefix": ""
 		},
@@ -298,7 +298,7 @@
 		},
 		{
 			"SbjID": "I3690",
-			"SbjTitle": "Information",
+			"SbjTitle": "資訊技術服務學習",
 			"SbjTea": "葉慶隆張薰文",
 			"SbjPrefix": "資工系大二、三、四修過基礎課程、核心課程者"
 		}
@@ -306,103 +306,103 @@
 	"_3": [
 		{
 			"SbjID": "G1515H",
-			"SbjTitle": "",
+			"SbjTitle": "英文(五)",
 			"SbjTea": "蘇政傑",
 			"SbjPrefix": "修完英文三、四者"
 		},
 		{
 			"SbjID": "G3011D",
-			"SbjTitle": "",
+			"SbjTitle": "雜誌研讀(一)",
 			"SbjTea": "郭譽申",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "G3011E",
-			"SbjTitle": "",
+			"SbjTitle": "雜誌研讀(一)",
 			"SbjTea": "包蒼龍",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "G3011H",
-			"SbjTitle": "",
+			"SbjTitle": "雜誌研讀(一)",
 			"SbjTea": "鄭福炯",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "G3011I",
-			"SbjTitle": "",
+			"SbjTitle": "雜誌研讀(一)",
 			"SbjTea": "謝忠健",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "G3011J",
-			"SbjTitle": "",
+			"SbjTitle": "雜誌研讀(一)",
 			"SbjTea": "林金城",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "G3011K",
-			"SbjTitle": "",
+			"SbjTitle": "雜誌研讀(一)",
 			"SbjTea": "陳俊銘",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "G3011L",
-			"SbjTitle": "",
+			"SbjTitle": "雜誌研讀(一)",
 			"SbjTea": "虞台文",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "G3011M",
-			"SbjTitle": "",
+			"SbjTitle": "雜誌研讀(一)",
 			"SbjTea": "葉慶隆",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "G3011N",
-			"SbjTitle": "",
+			"SbjTitle": "雜誌研讀(一)",
 			"SbjTea": "謝禎冏",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "G3011O",
-			"SbjTitle": "",
+			"SbjTitle": "雜誌研讀(一)",
 			"SbjTea": "張嘉銘",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "G3011P",
-			"SbjTitle": "",
+			"SbjTitle": "雜誌研讀(一)",
 			"SbjTea": "謝尚琳",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "G3011Q",
-			"SbjTitle": "",
+			"SbjTitle": "雜誌研讀(一)",
 			"SbjTea": "蔡佳勝",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "G3011R",
-			"SbjTitle": "",
+			"SbjTitle": "雜誌研讀(一)",
 			"SbjTea": "曾嘉影",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "G3011S",
-			"SbjTitle": "",
+			"SbjTitle": "雜誌研讀(一)",
 			"SbjTea": "鄭穎懋",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "G3011T",
-			"SbjTitle": "",
+			"SbjTitle": "雜誌研讀(一)",
 			"SbjTea": "高一統",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "G3011U",
-			"SbjTitle": "",
+			"SbjTitle": "雜誌研讀(一)",
 			"SbjTea": "黃國軒",
 			"SbjPrefix": ""
 		},
@@ -444,7 +444,7 @@
 		},
 		{
 			"SbjID": "I3090",
-			"SbjTitle": "Embeded",
+			"SbjTitle": "嵌入式系統專題實驗",
 			"SbjTea": "曾嘉影",
 			"SbjPrefix": "邏輯設計"
 		},
@@ -456,7 +456,7 @@
 		},
 		{
 			"SbjID": "I3160",
-			"SbjTitle": "Introduction",
+			"SbjTitle": "資訊安全導論",
 			"SbjTea": "林金城",
 			"SbjPrefix": "無 (最好修過計算機概論)"
 		},
@@ -474,7 +474,7 @@
 		},
 		{
 			"SbjID": "I3690",
-			"SbjTitle": "Information",
+			"SbjTitle": "資訊技術服務學習",
 			"SbjTea": "葉慶隆張薰文",
 			"SbjPrefix": "資工系大二、三、四修過基礎課程、核心課程者"
 		},
@@ -488,7 +488,7 @@
 	"_4": [
 		{
 			"SbjID": "G3020A",
-			"SbjTitle": "",
+			"SbjTitle": "專題實驗(一)",
 			"SbjTea": "林淑瓊",
 			"SbjPrefix": ""
 		},
@@ -596,7 +596,7 @@
 		},
 		{
 			"SbjID": "I2000A",
-			"SbjTitle": "Seminar",
+			"SbjTitle": "資訊講座",
 			"SbjTea": "蔡佳勝",
 			"SbjPrefix": "None"
 		},
@@ -614,19 +614,19 @@
 		},
 		{
 			"SbjID": "G1030A",
-			"SbjTitle": "Training",
+			"SbjTitle": "英語聽力測驗訓練",
 			"SbjTea": "湯佳美",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "G1030B",
-			"SbjTitle": "Training",
+			"SbjTitle": "英語聽力測驗訓練",
 			"SbjTea": "湯佳美",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "I3090",
-			"SbjTitle": "Embeded",
+			"SbjTitle": "嵌入式系統專題實驗",
 			"SbjTea": "曾嘉影",
 			"SbjPrefix": "邏輯設計"
 		},
@@ -638,7 +638,7 @@
 		},
 		{
 			"SbjID": "I3160",
-			"SbjTitle": "Introduction",
+			"SbjTitle": "資訊安全導論",
 			"SbjTea": "林金城",
 			"SbjPrefix": "無 (最好修過計算機概論)"
 		},
@@ -656,7 +656,7 @@
 		},
 		{
 			"SbjID": "I3690",
-			"SbjTitle": "Information",
+			"SbjTitle": "資訊技術服務學習",
 			"SbjTea": "葉慶隆張薰文",
 			"SbjPrefix": "資工系大二、三、四修過基礎課程、核心課程者"
 		},
@@ -668,7 +668,7 @@
 		},
 		{
 			"SbjID": "I4060",
-			"SbjTitle": "I",
+			"SbjTitle": "創新科技經營",
 			"SbjTea": "林佳添",
 			"SbjPrefix": "無"
 		},
@@ -704,13 +704,13 @@
 		},
 		{
 			"SbjID": "I4480",
-			"SbjTitle": "Introduction",
+			"SbjTitle": "資訊隱藏與安全概論",
 			"SbjTea": "林金城，謝尚琳",
 			"SbjPrefix": ""
 		},
 		{
 			"SbjID": "I4580",
-			"SbjTitle": "Independent",
+			"SbjTitle": "創新服務專題製作",
 			"SbjTea": "鄭穎懋，葉慶隆",
 			"SbjPrefix": "語意服務導向架構、XML技術與電子商務、語意網與知識管理"
 		},
@@ -734,7 +734,7 @@
 		},
 		{
 			"SbjID": "I5450",
-			"SbjTitle": "Design",
+			"SbjTitle": "整合數位系統設計與實作",
 			"SbjTea": "李良德鄭福炯",
 			"SbjPrefix": "數位系統導論"
 		},
@@ -746,7 +746,7 @@
 		},
 		{
 			"SbjID": "I5700A",
-			"SbjTitle": "Semantic",
+			"SbjTitle": "語意網與知識管理",
 			"SbjTea": "葉慶隆",
 			"SbjPrefix": ""
 		},
