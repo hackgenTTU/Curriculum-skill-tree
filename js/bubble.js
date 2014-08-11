@@ -3,9 +3,11 @@ var diameter = 960,
     color = d3.scale.category20c();
 
 var bubble = d3.layout.pack()
-    .sort(null)
+    .sort(function comparator(a, b) {return a.value - b.value;})
     .size([diameter, diameter])
-    .padding(1.5);
+    .padding(50);
+
+var cluster = d3.layout.cluster();
 
 var svg = d3.select("body").append("svg")
     .attr("width", diameter)
@@ -21,16 +23,16 @@ d3.json("classFord3jsTest.json", function(error, root) {
       .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
 
   node.append("title")
-      .text(function(d) { return d.className + ": " + format(d.value); });
+      .text(function(d) { return d.className + ": " + format(d.r); });
 
   node.append("circle")
-      .attr("r", function(d) { return d.r; })
+      .attr("r", function(d) { return d.value; })
       .style("fill", function(d) { return color(d.className); });
 
   node.append("text")
-      .attr("dy", ".3em")
+      .attr("dy", ".5em")
       .style("text-anchor", "middle")
-      .text(function(d) { return d.className.substring(0, d.r / 3); });
+      .text(function(d) { return d.className.substring(0,2); });
 });
 
 function classes(root) {
@@ -38,11 +40,11 @@ function classes(root) {
 
   function recurse(name, node) {
     if (node.children) node.children.forEach(function(child) { recurse(node.name, child); });
-    else classes.push({packageName: name, className: node.SbjTitle, value: Math.random()*10000});
+    else classes.push({packageName: name, className: node.SbjTitle, value: Math.random()*5+25});
   }
 
   recurse(null, root);
-  return {children: classes};
+  return {children: classes,r:60};
 }
 
 d3.select(self.frameElement).style("height", diameter + "px");
