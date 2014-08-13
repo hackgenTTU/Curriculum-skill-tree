@@ -2,12 +2,41 @@
 <meta charset="utf-8">
 <style>
 text {
-    font: 10px sans-serif;
+  font-size: 11px;
+  pointer-events: none;
 }
+
+text.parent {
+  fill: #1f77b4;
+}
+
+circle {
+  fill: #ccc;
+  stroke: #999;
+  pointer-events: all;
+}
+
+circle.parent {
+  fill: #1f77b4;
+  fill-opacity: .1;
+  stroke: steelblue;
+}
+
+circle.parent:hover {
+  stroke: #ff7f0e;
+  stroke-width: .5px;
+}
+
+circle.child {
+  pointer-events: none;
+}
+
 </style>
 <link rel="stylesheet" type="text/css" href="css/bubble.css">
 <body>
-    <script src="http://d3js.org/d3.v3.min.js"></script>
-    <script type="text/javascript" src="js/bubble.js"></script>
+     <!--<script src="http://d3js.org/d3.v3.min.js"></script>!-->
+    <script type="text/javascript" src="http://mbostock.github.io/d3/talk/20111116/d3/d3.js"></script>
+    <script type="text/javascript" src="http://mbostock.github.io/d3/talk/20111116/d3/d3.layout.js"></script>
+    <script type="text/javascript" src="js/zoomIn.js"></script>
 
 </body>
