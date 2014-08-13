@@ -45,6 +45,10 @@ d3.json("classFord3jsTest.json", function(data) {
       .text(function(d) { return (d.name!=undefined?d.name:d.SbjTitle.substr(0,2)); });
 
   d3.select(window).on("click", function() { zoom(root); });
+  d3.selectAll("text.child").on("mouseover",function(d){tooltip.pop(this,
+'<h4><span>課程代號: '+d.SbjID+'</span></h4>'+
+'<h4><span>課程名稱: '+d.SbjTitle+'</span></h4>'+
+'<h4><span>任課老師: '+d.SbjTea+'</span></h4>')  })
 });
 
 function zoom(d, i) {

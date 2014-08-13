@@ -3,7 +3,8 @@
 <style>
 text {
   font-size: 11px;
-  pointer-events: none;
+  width: 30px;
+  height: 30px;
 }
 
 text.parent {
@@ -20,6 +21,7 @@ circle.parent {
   fill: #1f77b4;
   fill-opacity: .1;
   stroke: steelblue;
+  z-index: -1;
 }
 
 circle.parent:hover {
@@ -29,12 +31,15 @@ circle.parent:hover {
 
 circle.child {
   pointer-events: none;
+  z-index: 1;
 }
 
 </style>
-<link rel="stylesheet" type="text/css" href="css/bubble.css">
-<body>
+<!-- <link rel="stylesheet" type="text/css" href="css/bubble.css">
+ --><body>
      <!--<script src="http://d3js.org/d3.v3.min.js"></script>!-->
+     <link rel="stylesheet" type="text/css" href="css/tooltip.css">
+     <script type="text/javascript" src="js/tooltip.js"></script>
     <script type="text/javascript" src="http://mbostock.github.io/d3/talk/20111116/d3/d3.js"></script>
     <script type="text/javascript" src="http://mbostock.github.io/d3/talk/20111116/d3/d3.layout.js"></script>
     <script type="text/javascript" src="js/zoomIn.js"></script>
